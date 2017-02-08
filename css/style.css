@@ -1,0 +1,138 @@
+.outer{
+	height:104px;
+	width:914px;
+}
+
+#sam-img{
+	border: 5px solid black;
+	height:94px;
+	width:98px;
+	
+}
+
+#sam{
+	height:103px;
+	float:left;
+	width:108px;
+}
+
+#inner-div{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 600;
+	height:inherit;
+	background-color:#9E9E9E;
+	width:804px;
+	float:left;
+}
+
+#go-button{
+	height:84px;
+	width:142px;
+	text-align:center;
+	font-size:26px;
+	color:white;
+	padding-top:20px;	
+	float:left;
+
+}
+
+	#btn{
+	
+	margin:auto;
+	text-align: center;
+	width:118px;
+	height:39px;
+	background-color:#57E4AE;
+	font-size:15px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #888888;
+	
+	
+	}
+
+#track{
+	position:relative;
+	margin-top: 17px;
+	width:641px;
+	height:63px;
+	float:left;
+	background-image: url("../image/ruler-background.png");
+}
+
+#ruler{
+	background: url('../image/ruler-lines.png');
+	width: 641px;
+	height: 63px;
+	z-index:2;	
+}
+
+#meter{
+	color:#7FC5D3;
+	float:left;
+	
+}
+
+#meter div{
+	float:left;
+}
+
+#div2{
+	margin-left:44px;
+}
+
+#div3{
+	margin-left:31px;
+}
+#div4{
+	margin-left:29px;
+}
+
+#div5, #div6, #div7, #div8, #div9{
+	margin-left:31px;
+}
+
+#div10{
+	margin-left:32px;
+}
+#div11{
+	margin-left:32px;
+}
+
+#scoreTable{
+	
+	border-collapse: collapse;	
+}
+
+
+.cells{
+	background-color:#DDDDDD;
+}
+
+#scoreTable tr th, #scoreTable tr td{
+	padding:20px 50px;
+	border: 1px solid black;
+	text-align:center;
+}
+
+#man{
+	margin-top:37px;
+	float:left;
+	background: url('../image/running-sequence.png');
+	background-position: 26px 0px; 
+	position:absolute;
+	left:0px;
+	width: 23px;
+	height: 29px;
+	z-index:3;	
+}
+
+
+#container { 
+	height:415px;
+	width:355px;
+	margin-top:27px;
+	margin-left:200px;
+	overflow-Y:auto;
+	display:inline-block;
+}
+
